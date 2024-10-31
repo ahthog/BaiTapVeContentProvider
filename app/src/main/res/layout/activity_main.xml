@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tvStudentInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nguyen Le Anh Tho - 22115053122139"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/buttonShowAllSms"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Show All SMS" />
+
+    <Button
+        android:id="@+id/buttonAccessCallLog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Access The Call Log"
+        android:layout_marginTop="8dp"/>
+
+    <Button
+        android:id="@+id/buttonAccessMediaStore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Access Media Store"
+        android:layout_marginTop="8dp"/>
+
+    <Button
+        android:id="@+id/buttonAccessBookmarks"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Access Bookmarks"
+        android:layout_marginTop="8dp"/>
+</LinearLayout>
