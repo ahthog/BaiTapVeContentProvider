@@ -18,13 +18,13 @@
         android:id="@+id/buttonShowAllSms"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Show All SMS" />
+        android:text="Show SMS" />
 
     <Button
         android:id="@+id/buttonAccessCallLog"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Access The Call Log"
+        android:text="Show Call Log"
         android:layout_marginTop="8dp"/>
 
     <Button
